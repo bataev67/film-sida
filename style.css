@@ -1,0 +1,39 @@
+:root{
+    --navy: #0F2C59; 
+    --biege: #DAC0A3;
+    --cream: #F8F0E5; 
+}
+
+body {
+    margin: 0px;
+    background-color: var(--cream);
+}
+header{
+    text-align: center;
+    top: 20px;
+    height: 100px; 
+    width: 100%; 
+    font-size: 30px;
+}
+      
+
+h1{
+    font: size 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+img{
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+a{
+  bottom: 50px;
+  padding: 50px;
+  font-size: large;
+}
