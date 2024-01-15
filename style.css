@@ -19,7 +19,6 @@ header{
 
 h1{
     font: size 20px;
-    padding: 20px;
     text-align: center;
 
 }
@@ -36,4 +35,21 @@ a{
   bottom: 50px;
   padding: 50px;
   font-size: large;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.beskrivning{
+    display: flex;
+    justify-content: end;
+}
+
+.Fullbox{
+    display: flex;
+    justify-content: space-around;
 }
